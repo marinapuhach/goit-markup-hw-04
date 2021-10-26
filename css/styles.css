@@ -479,11 +479,6 @@ body {
   align-items: center;
 }
 
-.footer-join {
-  width: 206px;
-  height: 80px;
-}
-
 .social-list {
   display: flex;
   justify-content: center;
@@ -518,6 +513,11 @@ body {
 .footer-social-link:hover .footer-social-icon,
 .footer-social-link:focus .footer-social-icon {
   fill: var(--header-color);
+}
+
+.social-container {
+  display: flex;
+  align-items: baseline;
 }
 
 /*-----------------portfolio-------------------------*/
