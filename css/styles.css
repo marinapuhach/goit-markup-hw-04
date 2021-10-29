@@ -133,6 +133,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   display: flex;
+  align-items: center;
 }
 
 .menu-studio:hover,
@@ -174,6 +175,10 @@ body {
   color: var(--header-color);
   background-color: var(--accent-color);
   border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 .hero-title {
@@ -278,14 +283,11 @@ body {
 .advantages-rect {
   display: flex;
   height: 120px;
+  align-items: center;
+  justify-content: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
   border-radius: 4px;
-}
-
-.advantages-icon {
-  display: block;
-  margin: auto;
 }
 
 .activity-list {
@@ -458,6 +460,11 @@ body {
   color: var(--accent-color);
 }
 
+.adress-item:hover,
+.adress-item:focus {
+  color: var(--accent-color);
+}
+
 .header-logo-footer {
   display: inline-block;
   margin-bottom: 20px;
@@ -606,16 +613,21 @@ focus {
   margin-top: -30px;
 }
 
+.card-link {
+  display: block;
+  text-decoration: none;
+}
+
+.card-link:hover,
+.card-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .cards-item {
   flex-basis: calc((100% - 9 * 30px) / 9);
   margin-left: 30px;
   margin-top: 30px;
-}
-
-.cards-item:hover,
-.cards-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .text-notice {
